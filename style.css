@@ -1,0 +1,28 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.world{
+    width: 350px;
+    height: 350px;
+    background: url("mundo.jpg") top/ cover ;
+    margin:auto;
+    border-radius: 50%;
+    margin-top: 30px;
+    
+    animation: world 9s linear infinite;
+  }
+  
+  @keyframes world{
+    0%{
+        background-position-x: 0%;
+    }
+  
+    100%{
+        background-position-x: -800px;
+    }
+  }
